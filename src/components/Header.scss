@@ -1,18 +1,17 @@
 .header {
+  width: 100%;
   display: flex;
-  align-items: center;
-  img {
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    padding: 1rem;
-    margin-left: 2rem;
+  background: #051026;
+  color: white;
+
+  .header__desktopLinks {
+    display: none;
   }
-  ul {
-    display: flex;
-    list-style: none;
-    li {
-      padding: 1rem;
-    }
+  .header__bLogo {
+    display: none;
+  }
+  .header__wLogo {
+    padding: 0.5rem;
+    margin: 0 auto;
   }
 }
