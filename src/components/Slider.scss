@@ -1,0 +1,32 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+
+  .slider__shoe {
+    width: 80%;
+    height: auto;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+
+  .slider__img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+  }
+
+  .slider__bg1 {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .slider__bg2 {
+    width: 100%;
+    margin-top: 15em;
+    right: 0px;
+  }
+  .slider__tag {
+    width: 40%;
+    height: auto;
+    margin-top: 17rem;
+  }
+}
